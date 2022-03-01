@@ -61,4 +61,4 @@ This component realizes multiple architectural concerns (*I/O, Database handling
 
 **LCC (Lack of Component Cohesion) = 0.44**
 
-! [](Picture.png)
+! [title](Picture.png)
