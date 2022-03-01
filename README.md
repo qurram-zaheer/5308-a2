@@ -44,7 +44,7 @@ This smell partially occurs because of the rebellious hierarchy. Since MyReader 
 *Class* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `God`  
   
   
-This smell exists because the God class has low cohesion, i.e., it handles many kinds of functionality (*file reading, writing, database connections, etc.*).  
+This smell exists because the God class handles many kinds of functionality (*file reading, writing, database connections, etc.*). It has a large number of public methods.
   
 ## Architecture Smells  
 >**Feature Concentration** \
