@@ -55,7 +55,7 @@ This component realizes multiple architectural concerns (*I/O, Database handling
 - `JsonHandler` - `MyReader` - `CSVHandlerTest`   
 **LCC (Lack of Component Cohesion) = 0.44**  
   
-![title](https://imgur.com/eEck8U9.png)
+![title](https://imgur.com/AZX7UYO.png)
 <center><small>Fig 1 Designite [1] output proving the presence of smells mentioned above</small></center>
 
 
