@@ -1,5 +1,7 @@
 # Part-I Documentation
 
+
+
 ## Implementation smells
 ### Magic Number
 *Package* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`com.assignment1.main`\
@@ -14,6 +16,7 @@ The 2 in **line 153** is a magic number. It has been hard coded to add an extern
 *method* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `handlerMain`
 
 This method is a complex method with cyclomatic complexity = 24. This method needs to be split into different methods without the use of command flags. The method handles very different jobs and implements all of them inside it. This also means it contains the Long Parameter List smell (9 parameters)
+<hr>
 
 ## Design Smells
 ### Rebellious Hierarchy
@@ -42,7 +45,9 @@ This smell partially occurs because of the rebellious hierarchy. Since MyReader 
 *Class* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `God`
 
 
-This smell exists because the God class has low cohesion, i.e., it handles many kinds of functionality (file reading, writing, database connections, etc.).
+This smell exists because the God class has low cohesion, i.e., it handles many kinds of functionality (*file reading, writing, database connections, etc.*).
+
+<hr>
 
 ## Architecture Smells
 ### Feature Concentration
@@ -56,4 +61,4 @@ This component realizes multiple architectural concerns (*I/O, Database handling
 
 **LCC (Lack of Component Cohesion) = 0.44**
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/a7v97cK" data-context="false" ><a href="//imgur.com/a/a7v97cK"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+! [](Picture.png)
