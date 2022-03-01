@@ -45,6 +45,13 @@ This smell partially occurs because of the rebellious hierarchy. Since MyReader 
   
   
 This smell exists because the God class handles many kinds of functionality (*file reading, writing, database connections, etc.*). It has a large number of public methods.
+
+> **Broken Hierarchy**  
+*Package* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`com.assignment1.main`  
+*Class* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `CSVHandler, MyReader`
+
+
+This smell exists because the `CSVHandler` class extends the `MyReader` class but does not override any of the supertype methods
   
 ## Architecture Smells  
 >**Feature Concentration** \
