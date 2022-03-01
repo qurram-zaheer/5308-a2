@@ -1,5 +1,6 @@
 ﻿# Part-I Documentation  
   
+> **Note**: This repository consists of the program that was analyzed for smells (for part 1 of the assignment) . Additionally, it also contains a folder called 'Part 2 Analysis' that consists of the python script (executed after running **ArchitectureQualityEvolution** [2]) used to analyze the open source project for part 2 of the assignment. It also consists of the various plots and commit-wise metrics used to generate those plots.
   
   
 ## Implementation smells  
@@ -68,3 +69,5 @@ This component realizes multiple architectural concerns (*I/O, Database handling
 
 # References
 [1] Tushar Sharma (2020) DesigniteJava (v1.8.6) [Source Code] [https://github.com/tushartushar/DesigniteJava](https://github.com/tushartushar/DesigniteJava)
+
+[2] Tushar Sharma (2019) ArchitectureQualityEvolution (v1.0.0) [Source Code] [https://github.com/tushartushar/ArchitectureQualityEvolution](https://github.com/tushartushar/ArchitectureQualityEvolution)
